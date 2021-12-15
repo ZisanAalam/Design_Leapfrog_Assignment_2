@@ -71,6 +71,31 @@
         width: 10rem;
     }
 
+    .left-nav-top-heading{
+        display: inline-block;
+        /* width: 19.4rem; */
+        width: 100%;
+        /* padding-top: 15rem; */
+        font-size: 1.8rem;
+        /* padding-left: 11rem; */
+        background-color: #2FC1DA;
+        height: 4.2rem;
+    }
+  
+    
+    .left-nav-top-heading span{
+        display: inline-block;
+        margin-top: 1.5rem;
+        
+    }
+    .content{
+      clear: both;
+  }
+  .content-logo{
+      float: right;
+      
+  }
+
 }
 
 
