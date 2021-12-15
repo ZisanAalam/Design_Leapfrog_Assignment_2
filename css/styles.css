@@ -1,0 +1,330 @@
+
+/* -------------------------Heading ------------------------------*/
+.header-left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.header-right{
+    float: right;
+}
+
+#search-box{
+    position: absolute;
+    top: 40px;
+    border: none;
+    height: 20px;
+    width: 247px;
+    left: 285px;
+    background-color: #CAEFF7;
+}
+
+.search-left-corner{
+    position: absolute;
+    top: 40px;
+    left: 279px;
+}
+#search-btn-icon{
+    position: absolute;
+    top: 40px; 
+    left:533px; 
+    padding: 0px;
+    background-color: #7DD9E8;
+    border: none;
+}
+#search-icon-corner{
+    position: absolute;
+    top:40px;
+    left: 548px;
+}
+
+
+#search-btn{
+    background-image: url(../images//search.jpg);
+    color: white;
+    position: absolute;
+    left: 558px;
+    height: 20px;
+    top:40px;
+    border: none;
+    background-color: #7DD9E8;
+}
+
+.name{
+    margin-top: 28px;
+    /* margin-right: 31px; */
+    font-size: 16px;
+    margin-left: 65px;
+    
+}
+
+/* ----------------- Navbar in Heading ---------------------*/
+.head-nav-bar  {
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 31px;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+ 
+  .head-nav-bar li {
+    float: left;
+  }
+  
+  .head-nav-bar li a {
+    display: block;
+    /* padding: 8px; */
+    text-decoration: none;
+    color: black;
+
+  }
+  .head-nav-bar li a:hover{
+    color: #969696;
+  }
+  .separator{
+      padding: 5px;
+  }
+  /* ------------------------------End of Heading ----------------------*/
+
+  /* ------------------------navigation bar -----------------------------*/
+  .nav-bar{
+      font-size: 14px;
+      font-weight:600;
+  }
+  .nav-bar ul li{
+    float: left;
+    padding-left: 25px;
+    padding-top: 15px;
+    
+
+  }
+  .nav-bar ul li a{
+    text-decoration: none;
+    color: #474747;
+  }
+  .nav-bar li a:hover{
+    color: #969696;
+  }
+
+  /* .nav-bar li a:visited{
+    color: #969696;
+  } */
+
+#nav-item-5, #nav-item-6{
+    float: right;
+    margin-right: 23px;
+}
+
+/* ------------------------ End of Navbar -------------------*/
+
+
+  /* ----------------------left navbar ----------------------*/
+.left-nav-top-heading{
+      display: inline-block;
+      width: 194px;
+      /* padding-top: 15px; */
+      font-size: 18px;
+      /* padding-left: 11px; */
+      background-color: #2FC1DA;
+      height: 42px;
+  }
+
+  .left-nav-bar span{
+      margin-left: 11px;
+  }
+  .left-nav-top-heading span{
+      display: inline-block;
+      margin-top: 15px;
+      
+  }
+  .content{
+    float: left;
+    width: 96px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content-logo{
+    float: right;
+    padding-right: 14px;
+    margin-top: 29px;
+    
+}
+.left-nav-top li span a:hover{
+  background-color: #FFFFFF;
+}
+
+
+/* ----------------- Footer --------------------*/
+.foot ul li{
+    float: left;
+}
+.foot li a {
+    display: block;
+    /* padding: 8px; */
+    text-decoration: none;
+    color: white;
+    margin-top: 19px;
+    font-size: 12px;
+  }
+  #footer-item-1{
+    margin-left: 25px;
+  }
+
+  .foot li a:hover{
+    color : #2FC1DA;
+  }
+  .dot-separator{
+      padding-left: 5px;
+      padding-right:5px;
+  }
+  #footer-item-6{
+      float: right;
+      margin-right: 23px;;
+  }
+
+  /* -------------------------Footer End -------------------*/
+
+
+  /* --------------------right navbar---------------- */
+
+ 
+  .right-nav-title{
+    display: block;
+    width: 176px;
+    font-size: 18px;
+    background-color: #2FC1DA;
+    height: 42px;
+
+  }
+  .right-nav-bar span{
+    display: block;
+      padding: 15px 11px;
+  }
+  .right-nav-bar ul li{
+      display: block;
+      width: 100%;
+  } 
+
+  .right-nav-bar ul li a{
+   
+    color: black;
+    display: block;
+    padding:11px;
+    text-decoration: none;
+  }
+
+  .right-nav-bar ul li:hover {
+    background-color: #FFFFFF;
+    
+  }
+
+  /* --------------------Right Navbar End---------------- */
+
+  
+  /* ----------------------------- Body content ------------------------------- */
+  
+
+  .main-heading{
+      font-size: 26px;
+      font-weight: 500;
+  }
+
+  
+
+  .main-title{
+    display: inline-block;
+    height: 65px;
+    width: 518px;
+    background-color: #F5F5F5;
+    border-bottom: 2px solid #7DD9E8;
+    margin-top:11px;
+  }
+  .main-title-separator{
+    display: block;
+    background-color: #FFFFFF;
+    height: 65px;
+    width: 2px;
+    margin: auto;
+  }
+  
+  
+  .main-content-item{
+    display: inline-block;
+    height: 100px;
+    /* border-bottom: 1px solid #d8d8d8; */
+  }
+  .divider{
+    display: block;
+    clear: both;
+    width: 518px;
+    border-bottom: 2px solid #d8d8d8;
+  }
+
+  .main-title-left{
+    float: left;
+    width: 257px;
+    height: 65px;
+    border-right:2px solid #FDFDFD;
+    /* border: 1px solid red; */
+
+  }
+  .main-title-right{
+    float: right;
+    width: 257px;
+    height: 65px;
+    border-left:1px solid #FDFDFD;
+    /* border: 1px solid red; */
+  }
+  .left-title,.right-title{
+    position:absolute;
+    clear: both;
+    margin-top: 12px;
+    margin-left: 99px;
+
+  } 
+
+  .main-left-btn{
+    float: left;
+     margin-top: 36px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .main-right-btn{
+    float: right ;
+    margin-top: 36px;
+    margin-right: 5px;
+
+  }
+  .desc-img{
+    padding : 15px 10px 15px 0px;
+  }
+  .desc{
+    padding-top: 15px;
+  }
+  .desc-title{
+    font-weight: bold;
+    
+  }
+
+  .desc-img{
+    float: left;
+  }
+  .desc{
+    float: left;
+  }
+  .info{
+    font-size: 14px;
+    font-weight: bold;
+    color:#2F9DB4;
+  }
+  .red{
+    color: #D53F1A;
+  }
+  .desc-separator{
+    padding: 5px 0px 5px;
+  }
+  .suscription{
+    color : #709521;
+    padding-left: 5px;
+  }
