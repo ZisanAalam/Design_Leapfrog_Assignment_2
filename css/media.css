@@ -12,7 +12,7 @@
 
     }
 }
-@media(max-width: 940px){
+@media(max-width: 950px){
     .container{
         width: 99%;
     }
@@ -118,7 +118,8 @@
     }
 }
 
-@media(max-width: 673px) and (min-width:481px){
+/*
+ @media(max-width: 673px) and (min-width:480px){
     .header{
         height: 9.5rem;
     }
@@ -134,13 +135,12 @@
     
     .search-left-corner{
         position: absolute;
-        /* top: 4rem; */
+
         top: 7rem;
         left: 14.9rem;
     }
     #search-btn-icon{
         position: absolute;
-        /* top: 4rem;  */
         top: 7rem; 
         left:40.3rem; 
         padding: 0rem;
@@ -149,7 +149,7 @@
     }
     #search-icon-corner{
         position: absolute;
-        /* top:4rem; */
+
         top:7rem;
         left: 41.8rem;
     }
@@ -161,7 +161,7 @@
         position: absolute;
         left: 42.8rem;
         height: 2rem;
-        /* top:4rem; */
+    
         top:7rem;
         border: none;
         background-color: #7DD9E8;
@@ -170,7 +170,7 @@
         float: left;
     }
     
-}
+} */
 
 @media(max-width:679px){
     #search-box{
@@ -238,7 +238,7 @@
 }
     
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     /* html{
         font-size: 55%;
     } */
@@ -379,4 +379,70 @@
     }
 }
 
+@media(max-width:364px){
+    .header{
+        height: 13rem;
+    }
+
+    .head-nav-bar ul li{
+        clear: both;
+        padding-top: 1rem;
+
+    }
+    .nav-bar ul{
+        padding: 0rem auto;
+    }
+
+    .header-right{
+       position: absolute;
+       left: 0;
+       top: 2.5rem;
+    }
+    
+    #search-box{
+        position: absolute;
+        /* top: 4rem; */
+        top: 10rem;
+        border: none;
+        height: 2rem;
+        width: 10.7rem;
+        left: 3.6rem;
+        background-color: #CAEFF7;
+    }
+    
+    .search-left-corner{
+        position: absolute;
+        /* top: 4rem; */
+        top: 10rem;
+        left: 3rem;
+    }
+    #search-btn-icon{
+        position: absolute;
+        /* top: 4rem;  */
+        top: 10rem; 
+        left:14.1rem; 
+        padding: 0rem;
+        background-color: #7DD9E8;
+        border: none;
+    }
+    #search-icon-corner{
+        position: absolute;
+        /* top:4rem; */
+        top:10rem;
+        left: 15.8rem;
+    }
+    
+    
+    #search-btn{
+        background-image: url(../images//search.jpg);
+        color: white;
+        position: absolute;
+        left: 16rem;
+        height: 2rem;
+        /* top:4rem; */
+        top:10rem;
+        border: none;
+        background-color: #7DD9E8;
+    }
+}
 
