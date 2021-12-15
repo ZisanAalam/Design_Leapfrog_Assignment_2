@@ -1,3 +1,9 @@
+.wrapper{
+  width: 986px;
+  margin: 0px auto;
+  position: relative;
+}
+
 
 /* -------------------------Heading ------------------------------*/
 .header-left{
@@ -156,6 +162,7 @@
 
 
 /* ----------------- Footer --------------------*/
+
 .foot ul li{
     float: left;
 }
