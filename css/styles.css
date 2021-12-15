@@ -21,19 +21,19 @@
     border: none;
     height: 2rem;
     width: 24.7rem;
-    left: 35.5rem;
+    left: 55.5rem;
     background-color: #CAEFF7;
 }
 
 .search-left-corner{
     position: absolute;
     top: 4rem;
-    left: 34.9rem;
+    left: 54.9rem;
 }
 #search-btn-icon{
     position: absolute;
     top: 4rem; 
-    left:60.3rem; 
+    left:80.3rem; 
     padding: 0rem;
     background-color: #7DD9E8;
     border: none;
@@ -41,7 +41,7 @@
 #search-icon-corner{
     position: absolute;
     top:4rem;
-    left: 61.8rem;
+    left: 81.8rem;
 }
 
 
@@ -49,7 +49,7 @@
     background-image: url(../images//search.jpg);
     color: white;
     position: absolute;
-    left: 62.8rem;
+    left: 82.8rem;
     height: 2rem;
     top:4rem;
     border: none;
