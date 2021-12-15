@@ -1,7 +1,8 @@
 .wrapper{
   /* width: 98.6rem; */
-  max-width: 91%;
+  max-width: 98.6rem;
   margin: 0rem auto;
+  overflow: hidden;
 }
 
 .header-left{
@@ -305,4 +306,8 @@
   .suscription{
     color : #709521;
     padding-left: .5rem;
+  }
+
+  .left-nav-bar li, .right-nav-bar li{
+    font-size: 1.5rem;
   }

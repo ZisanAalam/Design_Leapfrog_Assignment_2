@@ -52,21 +52,37 @@
         width: 45%;
         margin-right: 0px;
     }
+    .left-nav-top-heading, .right-nav-title{
+        width:100%
+    }
+
 
     .header{
         height: 10.5rem;
     } 
+    .main{
+        padding-left: 15rem;
+      }
+      .main img{
+        height: 4 rem;
+        width: 4rem;
+    }
+    .main .btn{
+        width: 10rem;
+    }
 
 }
 
 
 @media only screen and (max-width:900px){
-    .logo {
+    .logo img {
         height: 6rem;
         /* width: 12rem; */
         width: 12rem;
     }
-  
+  .main{
+    padding: 20px;
+  }
     #search-box{
         position: absolute;
         /* top: 4rem; */
@@ -116,10 +132,26 @@
         float: left;
         margin-left: 20rem;
     }
+    .main{
+        padding-left: 10rem;
+      }
+      .main img{
+        height: 4 rem;
+        width: 4rem;
+    }
+    .main .btn{
+        width: 10rem;
+    }
+
 }
 
-/*
- @media(max-width: 673px) and (min-width:480px){
+
+ @media(max-width: 673px){
+    .logo img {
+        height: 5rem;
+        /* width: 12rem; */
+        width: 10rem;
+    }
     .header{
         height: 9.5rem;
     }
@@ -169,8 +201,18 @@
     .header-right{
         float: left;
     }
+    .main{
+        padding-left: 5rem;
+      }
+      .main img{
+        height: 4 rem;
+        width: 4rem;
+    }
+    .main .btn{
+        width: 10rem;
+    }
     
-} */
+} 
 
 @media(max-width:679px){
     #search-box{
@@ -221,8 +263,30 @@
     .header-right{
         margin-left: 2rem;
     }
+    .main{
+        padding-left: 1rem;
+      }
+      .main img{
+        height: 4 rem;
+        width: 4rem;
+    }
+    .main .btn{
+        width: 7rem;
+    }
+    .main img{
+        height: 4 rem;
+        width: 4rem;
+    }
+    .main .btn{
+        width: 10rem;
+    }
 }
 @media(max-width:554px){
+    .logo img{
+        height: 4.5rem;
+        /* width: 12rem; */
+        width: 9rem;
+    }
     .left-nav-bar{
         width: 100%;
 
@@ -233,6 +297,16 @@
         margin-left: 0rem;
         padding-left: 0rem;
      
+    }
+    .right-nav-items{
+        text-align: center;
+    }
+    .main img{
+        height: 4 rem;
+        width: 4rem;
+    }
+    .main .btn{
+        width: 10rem;
     }
 
 }
@@ -248,8 +322,11 @@
     }
 
     .main img{
-        height: auto;
+        height: 4 rem;
         width: 4rem;
+    }
+    .main .btn{
+        width: 7rem;
     }
 
     #search-box{
@@ -298,81 +375,40 @@
         background-color: #7DD9E8;
     }
 
-    
-    /*
-    .nav-bar ul li{
-        clear: both;
-        padding-top: 1rem;
-
+    /* .left-nav-top-heading{
+        display: inline-block;
+        width: 19.4rem;
+        
+        font-size: 1.8rem;
+   
+        background-color: #2FC1DA;
+        height: 4.2rem;
     }
-    .nav-bar ul{
-        padding: 0rem auto;
+  
+    .left-nav-bar span{
+        margin-left: 1.1rem;
     }
-    .nav-bar{
-        height: 16rem;
-    }
-    #nav-item-5, #nav-item-6{
-        clear: both;
-        float: left;
-    }
-    .nav-bar img{
-        display: none;
-    }
-
-    .header-left{
-        clear: both;
-
-    }
-    .header-right{
-        clear: both;
-        margin-top: 0rem;
-    margin-left: 0rem;
-    }
-    .header{
-        display: block;
-        height: 20vh;
-    }
-    .header-left img{
-        width: 12rem;
-        height: 6rem;
-    }
-
-    .head-nav-bar  {
-        list-style-type: none;
-        overflow: hidden;
-        margin-right: none;
-        margin-top: none;
-        font-size: 1.2rem;
-      } */
-    
-    /* .head-nav-bar li {
-        clear: both;
-      }
-      .head-nav-bar li span
-    {
-        display: none;
-    }
-    .header .name{
-        all:unset
+    .left-nav-top-heading span{
+        display: inline-block;
+        margin-top: 1.5rem;
+        
     } */
 
     .left-nav-bar{
+        
         width: 100%;
         margin-left: 0px;
 
     }
     .right-nav-bar{
-        float: left;
+        
         width: 100%;
         margin-right: 0px;
     }
-    .right-nav-title,.left-nav-top-heading{
-        
-    }
-    .left-nav-top-heading{
-        width:45%
-    }
 
+    .right-nav-items{
+        text-align: center;
+    }
   
     .main{
         float: left;
