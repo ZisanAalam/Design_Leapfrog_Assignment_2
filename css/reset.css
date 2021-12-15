@@ -53,6 +53,9 @@ table {
 *{
     font-family: 'Mulish', sans-serif;
 }
+body{
+	height: auto;
+}
 html{
     font-size: 62.5%;
 }
