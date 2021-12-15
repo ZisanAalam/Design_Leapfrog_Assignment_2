@@ -4,11 +4,7 @@
     position: relative;
 } */
 
-.wrapper{
-    /* width: 98.6rem; */
-    width: 95%;
-    margin: 0rem auto;
-}
+
 .header{
     height: 8.5rem;
     background: #7DD9E8;

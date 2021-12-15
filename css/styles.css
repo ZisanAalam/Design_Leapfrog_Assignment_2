@@ -1,3 +1,8 @@
+.wrapper{
+  /* width: 98.6rem; */
+  max-width: 91%;
+  margin: 0rem auto;
+}
 
 .header-left{
     float: left;
